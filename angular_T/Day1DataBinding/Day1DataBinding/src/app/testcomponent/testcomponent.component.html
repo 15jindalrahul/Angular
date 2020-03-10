@@ -1,0 +1,12 @@
+
+
+  <img [src]="imagePath"/>
+  <img src={{imagePath}}/>
+  <button disabled> click me</button>
+  <button [disabled]="isDisabled">click me</button>
+  <button disabled={{isDisabled}}> clik me</button> 
+  <button (click)= "onButtonClicked($event)">click</button>
+  <button (dblclick)="onButtonClicked1($event)">Double click</button>
+  
+   /* interpolation -- {{}} */
+   /* property binding --[] */
